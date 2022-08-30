@@ -1,0 +1,25 @@
+# A gitignore file for ignoring file in the git repository
+#Ignore file ends with .py
+*.py
+
+#Ignore file ends with .java
+*.java
+
+#However keep test.py
+!test.py
+
+#Ignore all files in directory named doc
+doc/
+
+#Ignore all .java files in doc but not in its subdir
+doc/*.java
+
+#Ignore all files in the subdirectories of a folder
+doc/**/*.java
+
+#Ignore the .java files in current directory, not in its subdirectory
+/*.java
+
+
+
+
